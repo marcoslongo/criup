@@ -10979,7 +10979,11 @@ textarea.form-control-lg {
 .testimonials {
   position: relative;
   padding: 0;
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: #3a7bd5;
+  background: -moz-linear-gradient(-45deg, #3a7bd5 0%, #00d2ff 100%);
+  background: -webkit-linear-gradient(-45deg, #3a7bd5 0%,#00d2ff 100%);
+  background: linear-gradient(135deg, #3a7bd5 0%,#00d2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7bd5', endColorstr='#00d2ff',GradientType=1 );
 }
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
