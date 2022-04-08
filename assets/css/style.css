@@ -4186,9 +4186,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
-}
+
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
@@ -10862,7 +10860,11 @@ textarea.form-control-lg {
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: #3a7bd5;
+    background: -moz-linear-gradient(-45deg, #3a7bd5 0%, #00d2ff 100%);
+    background: -webkit-linear-gradient(-45deg, #3a7bd5 0%,#00d2ff 100%);
+    background: linear-gradient(135deg, #3a7bd5 0%,#00d2ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7bd5', endColorstr='#00d2ff',GradientType=1 );
 }
 
 .menu {
@@ -10994,10 +10996,10 @@ textarea.form-control-lg {
 }
 .testimonials__card i {
   font-size: 1.5rem;
-  color: rgba(153, 38, 240, 0.7);
+  color: #3a7bd5
 }
 .testimonials__card .ratings i {
-  color: rgba(153, 38, 240, 0.7);
+  color: #3a7bd5
   font-size: 1rem;
 }
 .testimonials__picture {
@@ -11008,7 +11010,7 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 .testimonials__picture img {
-  border: 0.325rem solid rgba(153, 38, 240, 0.7);
+  border: 0.325rem solid #3a7bd5
 }
 .testimonials__name {
   padding-top: 3rem;
@@ -11046,7 +11048,7 @@ textarea.form-control-lg {
   height: 100%;
 }
 .portfolio-box .portfolio-info {
-  background-color: rgba(153, 38, 240, 0.75);
+  background-color: #00d2ff;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -11251,4 +11253,17 @@ textarea.form-control-lg {
 .btn-home {
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.img-programador {
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  bottom: -5px;
+  z-index: 10;
+}
+
+.bg-top {
+  position: relative;
+  z-index: 100;
 }
