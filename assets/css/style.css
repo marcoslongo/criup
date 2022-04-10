@@ -64,6 +64,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 hr {
@@ -10815,7 +10816,7 @@ textarea.form-control-lg {
   height: 0.1rem;
   display: block;
   margin: 0 auto;
-  background-color: #00D2FF;
+  background-color: #fadf33;
 }
 
 .heading-line::after {
@@ -10826,7 +10827,7 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  background-color: #00D2FF;
+  background-color: #fadf33;
 }
 
 .display-3 {
@@ -10838,7 +10839,7 @@ textarea.form-control-lg {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  background-image: linear-gradient(to right, #00D2FF, #d122e3);
+  background: #3a7bd5;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10996,10 +10997,10 @@ textarea.form-control-lg {
 }
 .testimonials__card i {
   font-size: 1.5rem;
-  color: #3a7bd5
+  color: #fadf33
 }
 .testimonials__card .ratings i {
-  color: #3a7bd5
+  color: #fadf33 
   font-size: 1rem;
 }
 .testimonials__picture {
